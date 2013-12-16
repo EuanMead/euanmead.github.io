@@ -1,0 +1,15 @@
+## Structure
+## User-agent: robot
+## Disallow: files or directories
+
+## Specific
+## User-agent: Googlebot
+## Disallow: /no-robots/
+
+## Allow all
+## User-agent: *
+## Disallow:
+
+## Allow none
+## User-agent: *
+## Disallow: /
