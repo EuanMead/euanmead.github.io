@@ -1,0 +1,21 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.user-panel {
+    margin-top: 16px;
+}
+
+.user-panel {
+	color: #fff;
+}
+
+.user-panel a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.error {
+    color:red;
+}

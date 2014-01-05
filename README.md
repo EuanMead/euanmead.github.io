@@ -1,21 +1,31 @@
-#  Run of the Mill
+# Monstra CMS
+Monstra is a modern and lightweight Content Management System.
 
-## Changelog:
+## System Requirements
+Operation system: Unix, Linux, Windows, Mac OS   
+Middleware: PHP 5.2.3 or higher with PHP's [SimpleXML module](http://php.net/simplexml) and [Multibyte String module](http://php.net/mbstring)   
+Webserver: Apache with [Mod Rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) or Ngnix with [Rewrite Module](http://wiki.nginx.org/HttpRewriteModule)   
 
-### v.1.0 : August 25th, 2011
+## Steps to Install
+1. [Download the latest version.](http://monstra.org/download)
+2. Unzip the contents to a new folder on your local computer.
+3. Upload that whole folder with an FTP client to your host.
+4. You may also need to recursively CHMOD the folder /storage/, /tmp/, /backups/ and /public/ to 755(or 777) if your host doesn't set it implicitly.
+5. Also you may also need to recursively CHMOD the /install.php, /.htaccess and /sitemap.xml to 755(or 777) if your host doesn't set it implicitly.
+6. Type http://example.org/install.php in the browser.
 
-Run of the Mill attempts to provide the 'average joe' with a template which can scale up from one page to a thousand pages. All server related goodies from the original HTML5 Boilerplate have been removed because they do not work often, nor do they work on every server.
+## Contributing
+1. Help on the [Forum.](http://forum.monstra.org)
+2. Donate to keep Monstra free. We will add you to Monstra [Sponsors Page.](http://monstra.org/contribute/sponsors)
+3. Develop a new plugin.
+4. Create a new theme.
+5. Find and [report issues.](https://github.com/Awilum/monstra-cms/issues)
+6. Link back to [Monstra](http://monstra.org).
 
-### The Engine
+## Links
+- [Site](http://monstra.org)
+- [Forum](http://forum.monstra.org)
+- [Documentation](http://monstra.org/documentation)
+- [Github Repository](https://github.com/Awilum/monstra-cms)
 
-The engine is more or less powered by a modified version of Nicolas Gallagher's normalize.css. The modifications make every block element auto clear any float elements without the need to declare classes or extra elements. This works in all major browsers including IE6.
-
-### The Structure
-
-The structure is in essence a light-weight version of HTML5 Boilerplate. The main directory contains a favicon(.ico), humans(.txt) text-file, robots(.txt) text-file and an index.html file.
-
-### Folder Structure
-
-There are js, css and img folders. The img and the js folder are empty however the css folder contains the main stylesheet (style.css).
-
-#### Thanks, Euan
+Copyright (C) 2012-2014 Romanenko Sergey / Awilum [awilum@msn.com]
